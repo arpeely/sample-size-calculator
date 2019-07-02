@@ -4,6 +4,12 @@ A/B test sample size calculator which uses a two-tailed sequential likelihood ra
 
 [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 
+## Credits
+
+This package is inspired by the great work done by [Optimizely's Stats Engine](www.optimizely.com).
+
+For the original online version click [here](https://www.optimizely.com/sample-size-calculator/)
+
 ## Install
 
 sample-size-calculator is available as an [npm package](https://www.npmjs.com/package/@arpeely/sample-size-calculator).
