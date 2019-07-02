@@ -34,6 +34,6 @@ const relativeMDE = 0.3 //  30%
 const baselineConversionRate = 0.3572 //  35.72%
 
 // Sample size per variation
-const sampleSize = ampleSizeEstimate(relativeMDE, baselineConversionRate)
+const sampleSize = sampleSizeEstimate(relativeMDE, baselineConversionRate)
 console.log(sampleSize) // output: 160
 ```
