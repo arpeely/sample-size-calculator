@@ -2,6 +2,8 @@
 
 A/B test sample size calculator which uses a two-tailed sequential likelihood ratio test with false discovery rate controls to calculate statistical significance.
 
+[![npm version](https://img.shields.io/npm/v/@arpeely/sample-size-calculator.svg?style=flat-square)](https://www.npmjs.com/package/@arpeely/sample-size-calculator)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 
 ## Credits
