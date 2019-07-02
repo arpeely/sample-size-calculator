@@ -8,7 +8,7 @@ A/B test sample size calculator which uses a two-tailed sequential likelihood ra
 
 ## Credits
 
-This package is inspired by the great work done by [Optimizely's Stats Engine](www.optimizely.com).
+This package is inspired by the great work done by [Optimizely's Stats Engine](https://www.optimizely.com).
 
 For the original online version click [here](https://www.optimizely.com/sample-size-calculator/)
 
