@@ -1,20 +1,41 @@
 {
-  "name": "sample-size-calculator",
+  "name": "@arpeely/sample-size-calculator",
   "version": "1.0.0",
   "description": "A/B test sample size calculator which uses a two-tailed sequential likelihood ratio test with false discovery rate controls to calculate statistical significance.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arpeely/sample-size-calculator.git"
+  },
+  "keywords": [
+    "A/B test",
+    "sample-size",
+    "javascript",
+    "typescript"
+  ],
   "files": [
     "lib/**/*"
   ],
+  "bugs": {
+    "url": "https://github.com/Arpeely/sample-size-calculator/issues"
+  },
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "prepare": "yarn build",
+    "test": "jest --config jestconfig.json",
+    "prepublishOnly": "yarn test",
+    "version": "yarn format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
     "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.2"
   }
 }
