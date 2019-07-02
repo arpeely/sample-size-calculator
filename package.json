@@ -1,0 +1,20 @@
+{
+  "name": "sample-size-calculator",
+  "version": "1.0.0",
+  "description": "A/B test sample size calculator which uses a two-tailed sequential likelihood ratio test with false discovery rate controls to calculate statistical significance.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
+  }
+}
