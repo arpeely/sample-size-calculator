@@ -1,6 +1,6 @@
 {
   "name": "@arpeely/sample-size-calculator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A/B test sample size calculator which uses a two-tailed sequential likelihood ratio test with false discovery rate controls to calculate statistical significance.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
